@@ -2,10 +2,11 @@ package id.bagus.pokemonmvvm.ui.pokemoncarddetail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import id.bagus.pokemonmvvm.model.PokemonCard
 import id.bagus.pokemonmvvm.model.PokemonCardDetailViewState
 
-class PokemonCardDetailViewModel {
+class PokemonCardDetailViewModel : ViewModel() {
     private val mViewState = MutableLiveData<PokemonCardDetailViewState>().apply {
         value = PokemonCardDetailViewState(null)
     }
