@@ -1,3 +1,4 @@
+include ':mywidgets'
 include ':m2-myunittesting'
 include ':app'
 rootProject.name = "PPBDL_18104005"
